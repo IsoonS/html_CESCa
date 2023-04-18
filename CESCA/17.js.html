@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <h2>What Can JavaScript Do?</h2>
+
+  <p>JavaScript can change HTML attribute values.</p>
+
+  <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+  <button onclick="changeToHappy()">สุข</button>
+
+  <img id="myImage" src="https://www.pngmart.com/files/19/Smile-Emoji-Transparent-Background.png" style="width:100px">
+
+  <button onclick="changeToSad()">เศร้า</button>
+
+</body>
+<script>
+  function changeToHappy() {
+    document.getElementById('myImage').src='https://www.pngmart.com/files/19/Smile-Emoji-Transparent-Background.png';
+  }
+
+  function changeToSad() {
+    document.getElementById('myImage').src='https://cdn.shopify.com/s/files/1/1061/1924/products/5_grande.png?v=1571606116';
+  }
+</script>
+
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit" id="submit-btn">
+</form> 
+
+<script>
+  document.getElementById("submit-btn").onclick = function() {
+    let f_name = document.getElementById("fname").value;
+    let l_name = document.getElementById("lname").value;
+    alert("HELLO, " + f_name + " " + l_name);
+  }
+</script>
+
+</body>
+</html>
+
