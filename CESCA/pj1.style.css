@@ -1,0 +1,112 @@
+.main-container {
+
+}
+
+body {
+  /* background-color: antiquewhite; */
+}
+
+nav {
+  border: 1px solid black;
+  text-align: start;
+  background-color: #3C486B;
+  
+  /* height: 56px; */
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15%;
+}
+
+.menu a {
+  color: white;
+}
+
+
+/* .introduce {
+  margin-top: 20px;
+  border: 1px solid black;
+  height: 700px;
+} */
+
+.subject {
+  margin-top: 20px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  justify-content: center;
+  align-content: center;
+  gap: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+
+
+.member {
+  margin-top: 20px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  gap: 24px;
+  justify-content: center;
+}
+
+
+.card-container {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.card {
+  border: 1px solid green;
+}
+
+.img-container {
+  margin: 0 auto;
+  width: 60%;
+  border: 1px solid green;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+}
+
+/* section.introduce {
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background-image: url('cesca.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+} */
+
+footer {
+  margin-top: 40px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  border: 1px solid black;
+}
+
+.main-container {
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  
+}
+
+table {
+  width: 50%;
+  margin: 0 auto;
+}
+
